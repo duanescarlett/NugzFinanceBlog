@@ -7,9 +7,9 @@ import ClientSideRoute from "./ClientSideRoute"
 type Props = {
   posts: Post[]
 }
-1:49:21
+
 const BlogList = ({posts}: Props) => {
-  console.log(posts.length)
+  // console.log("The Post: ", posts[0].categories)
   return (
     <div>
       <hr className="border-[#F7AB0A] mb-10" />
@@ -52,7 +52,7 @@ const BlogList = ({posts}: Props) => {
                     {post.categories.map((category) => (
                       <div className="bg-[#F7AB0A] text-center text-black
                       px-3 py-1 rounded-full text-sm font-semibold">
-                        {/* <p>{category.title}</p> */}
+                        <p>{category.title}</p>
                       </div>
                     ))}
                   </div>

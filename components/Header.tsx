@@ -8,7 +8,7 @@ const Header = () => {
         <Link href="/" className="flex">
           <Image
             className="rounded-full"
-            src="nugzLogo.svg"
+            src="/nugzLogo.svg"
             width={50}
             height={50}
             alt="logo"

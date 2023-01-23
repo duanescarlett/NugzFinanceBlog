@@ -13,7 +13,7 @@ const Header = () => {
             height={50}
             alt="logo"
           />
-          <h1 className="mt-1">Nugz Finance</h1>
+          <h3 className="mt-1">Nugz Finance</h3>
         </Link>
       </div>
       <div>

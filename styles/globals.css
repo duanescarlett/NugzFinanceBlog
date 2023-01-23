@@ -4,16 +4,16 @@
 
 @layer base {
   h1 {
-    @apply text-5xl py-10 font-bold
-  }
-  h2 {
     @apply text-4xl py-10 font-bold
   }
-  h3 {
+  h2 {
     @apply text-3xl py-10 font-bold
   }
-  h4 {
+  h3 {
     @apply text-2xl py-10 font-bold
+  }
+  h4 {
+    @apply text-xl py-10 font-bold
   }
   blockquote {
     @apply border-l-[#F7AB0A] border-l-4 pl-5 py-5 my-5
